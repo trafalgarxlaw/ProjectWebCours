@@ -12,7 +12,13 @@ body{
     background-position: center;
     background-size: cover;
 }
-
+nav{
+    border-bottom: 1px solid black;
+    
+}
+#First-Title{
+    margin-top: 10%;
+}
 .logo{
     float: left;
     padding: 8px;
@@ -37,9 +43,10 @@ body{
     text-decoration: none;
     display: inline;
     border-spacing: 10px;
-    padding-right: 5px 
+    padding-right: 5px ;
   }
   .NavBar ul li a{
     color: #000;
     text-decoration: none;
+
   }
