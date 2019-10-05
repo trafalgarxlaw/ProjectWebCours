@@ -39,6 +39,9 @@ nav{
 #First-Title{
     margin-top: 30%;
 }
+.text{
+    text-align: center;
+}
 .logo{
     float: left;
     padding: 8px;
