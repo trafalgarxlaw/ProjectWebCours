@@ -60,6 +60,7 @@ nav{
 .NavBar{
     float: right;
     border-bottom: 1px solid black;
+   
     
 }
 .NavBar ul li {
@@ -72,5 +73,6 @@ nav{
   .NavBar ul li a{
     color: #000;
     text-decoration: none;
+    font-size: 10px
 
   }
