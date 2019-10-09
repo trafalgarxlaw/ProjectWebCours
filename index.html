@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="MyStyle.css" />
+    <script type="text/javascript" src="MyJavaScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="Css/MyStyle.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <title>Syndicat</title>
 </head>
@@ -21,18 +22,18 @@
         </div>
         <div class="NavBar">
             <ul>
-                <li><a href="">Revendications</a></li>
-                <li><a href="">Négociations</a></li>
+                <li><a href="Revendications.html">Revendications</a></li>
+                <li><a href="Negociations.html">Négociations</a></li>
                 <li><a href="Publications.html">Publications</a></li>
                 <li><a href="Connexion.html">Connexion</a></li>
-                <li><a href="">Contacts</a></li>
+                <li><a href="Contacts.html">Contacts</a></li>
             </ul>
         </div>
 
     </nav>
     
    <div id="language">
-        <select >
+        <select id="selectBox"  onchange="changeFunc();">
                 <option class="choix" value="Fr">Fr</option>
                 <option class="choix" value="Eng">Eng</option> 
         </select>
