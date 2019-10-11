@@ -31,8 +31,11 @@ footer a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    
+    width: 50%;   
+}
+.Slogan{
+    margin-top: 60px;
+   text-align: center;
 }
 #language {
     margin-top: 60px;
