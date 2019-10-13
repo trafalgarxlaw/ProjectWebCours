@@ -58,10 +58,6 @@ background-color: rgb(255, 255, 255);
     width: 95%;
     margin-bottom: 10px;
 }
-#First-Title{
-    margin-top: 30%;
-    margin-left: 20px;
-}
 .text{
     text-align: justify;
     margin: 20px;
@@ -112,5 +108,11 @@ background-color: rgb(255, 255, 255);
   }
 .Connexion{
     margin-top: 150px;
+}
+@media screen and (min-width:864px){
+    .text{
+        text-align: justify;
+        margin: 0% 10% 1% 10%;
+    }
 }
   .RevoirspecificationPolice{}
