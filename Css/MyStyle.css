@@ -26,6 +26,7 @@ footer a{
     color: #000;
 }
 #Sad-Image{
+    max-width: 400px;
     margin-top: 20%;
     margin-bottom: 50px;
     display: block;
@@ -50,12 +51,12 @@ background-color: rgb(255, 255, 255);
     width: 40px;
 }
 #Carte{
+    max-width: 900px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 95%;
     margin-bottom: 10px;
-    
 }
 #First-Title{
     margin-top: 30%;
