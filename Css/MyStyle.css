@@ -12,6 +12,9 @@ body{
     background-position: center;
     background-size: cover;
 }
+h3{
+padding-top: 50px;
+}
 nav{
     border-bottom: 1px solid black;
     
