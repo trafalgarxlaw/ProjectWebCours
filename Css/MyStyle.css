@@ -108,10 +108,26 @@ background-color: rgb(255, 255, 255);
   }
   .Connexion{
       margin: 5%;
+      margin-top: 150px;
   }
-.Connexion{
-    margin-top: 150px;
-}
+  .Videos{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  .Table {
+    width: 80%;
+    margin-left: 10%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 50px;
+  }
+  .Table th {
+    border: 1px solid black;
+  }
+
 @media screen and (min-width:864px){
     .text{
         text-align: justify;
