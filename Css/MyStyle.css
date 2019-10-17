@@ -51,8 +51,7 @@ address{
    text-align: center;
 }
 #language {
-    margin-top: 70px;
-    margin-left: 20px;
+    float: right;
 }
 #language select {
 background-color: rgb(255, 255, 255);
