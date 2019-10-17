@@ -73,6 +73,10 @@ background-color: rgb(255, 255, 255);
 .text{
     text-align: justify;
     margin: 20px;
+    
+}
+#Title{
+    display: inline-block;
 }
 .logo{
     float: left;
@@ -93,7 +97,7 @@ background-color: rgb(255, 255, 255);
 }
 
 .NavBar{
-    float: right;
+    float: right;   
     border-bottom: 1px solid black;
    
     
