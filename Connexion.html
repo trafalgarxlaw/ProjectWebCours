@@ -15,14 +15,14 @@
     <h1 class="text" ><a href="index.html"><img id="myLogoImage" alt="" src="Mylogo.png"></a>Connexion</h1>
     <div class="Connexion">
         <h5 >Veuillez vous connectez afin de pouvoir participer pleinement a la defense de nos droits!</h5>
-        <form  action="/action_page.php">
+        <form action="/action_page.php" method="post" enctype="multipart/form-data">
             <fieldset>
                 <legend>Information Personnel</legend>
                 <p > *Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat vel consectetur, id itaque animi nemo fugiat voluptates. Non, aliquam maiores.</p>
                 Nom d'utilisateur:<br>
-                <input type="text" name="firstname" ><br>
+                <input type="text" name="Username" ><br>
                 Mot de passe :<br>
-                <input type="password" name="lastname" ><br><br>
+                <input type="password" name="Pass" ><br><br>
                 <input type="submit" value="Se connecter">
 
             </fieldset>
