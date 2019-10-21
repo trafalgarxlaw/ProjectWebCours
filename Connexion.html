@@ -20,9 +20,12 @@
                 <legend>Information Personnel</legend>
                 <p > *Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat vel consectetur, id itaque animi nemo fugiat voluptates. Non, aliquam maiores.</p>
                 Nom d'utilisateur:<br>
-                <input type="text" name="Username" ><br>
+                <input type="text" name="username" pattern="([a-z]){5,8}\d\d" title="Doit-être formé de 5 à 8
+                lettres de l’alphabet latin en minuscules, suivies exactement
+                de 2 chiffres arabes" required><br>
                 Mot de passe :<br>
-                <input type="password" name="Pass" ><br><br>
+                <input type="password" name="password" pattern="([a-zA-Z0-9?*\-+]){8,12}" title="Doit-être
+                constitué de 8 à 12 caractères alphanumériques" required><br><br>
                 <input type="submit" value="Se connecter">
 
             </fieldset>
