@@ -109,30 +109,24 @@ background-color: rgb(255, 255, 255);
 }
 
 .NavBar{
-    float: right;  
+    float: right;   
+    border-bottom: 1px solid black;
    
     
 }
 .NavBar ul li {
-    
     text-decoration: none;
+    display: inline;
     border-spacing: 10px;
     padding-right: 5px ;
-    list-style-type: none;
-    padding: 10px; 
-
-
     
   }
   .NavBar ul li a{
-    display: inline-block;
-    width: 90px;
-    border: 2px solid black;
-    border-radius: 2px;
-    padding: 5px;    
+    display: inline;
     color: #000;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 15px;
+    border: none;
 
   }
 
@@ -177,7 +171,7 @@ background-color: rgb(255, 255, 255);
       color: #000;
   }
 
-@media screen and (min-width:864px){
+@media screen and (min-width:600px){
     .text{
         text-align: justify;
         margin: 0% 10% 1% 10%;
