@@ -15,6 +15,10 @@ body{
 h3{
 padding-top: 50px;
 }
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 footer{
     margin: 5%;
     font-size: 10px;
@@ -27,6 +31,13 @@ footer a{
 address{
     padding: 5%;
     margin-bottom: 1%;
+}
+iframe{
+    margin: 10%;
+    width: 80%;
+    height: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .Coordonnee{
     border-radius: 25px;
@@ -72,6 +83,7 @@ background-color: rgb(255, 255, 255);
 .text{
     text-align: justify;
     margin: 20px;
+    color: #000;
     
 }
 #Title{
