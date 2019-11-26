@@ -8,7 +8,6 @@ body{
     height: 100vh;
     font-family: 'Poppins';
     font-weight: 400;
-    background: url(x.jpg) ;
     background-position: center;
     background-size: cover;
 }
@@ -111,18 +110,19 @@ background-color: rgb(255, 255, 255);
 .NavBar{
     float: right;   
     border-bottom: 1px solid black;
-   
-    
+
 }
 .NavBar ul li {
     text-decoration: none;
     display: inline;
+
     border-spacing: 10px;
     padding-right: 5px ;
     
   }
   .NavBar ul li a{
     display: inline;
+
     color: #000;
     text-decoration: none;
     font-size: 15px;
@@ -190,7 +190,6 @@ background-color: rgb(255, 255, 255);
         
       }
       .NavBar ul li a{
-        display: inline;
         color: #000;
         text-decoration: none;
         font-size: 15px;
@@ -201,4 +200,4 @@ background-color: rgb(255, 255, 255);
         float: right;
     }
 }
-  .RevoirspecificationPolice{}
+ 
