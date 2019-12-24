@@ -5,4 +5,4 @@ function LangFunc(){
      }else{
 
      }
-}
+};

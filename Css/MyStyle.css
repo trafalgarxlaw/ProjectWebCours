@@ -201,3 +201,68 @@ background-color: rgb(255, 255, 255);
     }
 }
  
+/* TP2*/
+
+#AdminBtn, #DeleteBtn{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border-radius: 5%;
+    height: 30px;
+    margin: 10%;
+}
+#jstree_title
+ {
+    margin-left: 10%;
+}
+#jstree {
+    margin-left: 10%;
+}
+#Remove-btn {
+    margin-left: 10%;
+}
+
+
+
+/*Animation TP2*/
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.Animationbox{
+    height: 40px;
+    width: 80%;
+    margin: auto;
+    color:rgba(27, 27, 27, 0.75) ;
+    background-color:rgba(27, 27, 27, 0.75);
+}
+.line {
+    position: relative;
+    top: 50%;
+    width: 200%;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 17px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;transform: translateY(-50%);
+}
+.anim-typewriter {
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+          width: 0;
+    }
+    to {
+          width: 30em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}

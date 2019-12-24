@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 5%;
+    font-family: 'Poppins';
+}
+hr{
+    margin-bottom: 15%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+}
+
+#form{
+    margin-top: 10%;
+}
+h3{
+    display: inline-block;
+
+}
+#home{
+    position: relative;
+    float: right;
+}
